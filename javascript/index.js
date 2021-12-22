@@ -1,31 +1,73 @@
 $(function(){
 
-
-  var swiper = new Swiper(".notice_swiper", {
+  var swiper_news = new Swiper(".content.news .notice_swiper", {
+    slidesPerView: 1,
+    spaceBetween: 0,
     loop: true,
-    autoplay:true,
+    autoplay: true,
     pagination: {
-      el: ".pagination",
-      type: "fraction"
+      el: ".content.news .pagination",
+      type: "fraction",
     },
     navigation: {
-      nextEl: ".btn_box .next",
-      prevEl: ".btn_box .prev"
-    }
+      nextEl: ".content.news .btn.next",
+      prevEl: ".content.news .btn.prev",
+    },
   });
+
+  $('.content.news .pause').on('click',function(){
+    swiper_news.autoplay.stop();
+    return false;
+ });
+
+  $('.content.news .play').on('click',function(){
+    swiper_news.autoplay.start();
+    return false;
+ });
+
+
+
+  var swiper_citizen = new Swiper(".content.citizen .notice_swiper", {
+    slidesPerView: 1,
+    spaceBetween: 0,
+    loop: true,
+    autoplay: true,
+    pagination: {
+      el: ".content.citizen .pagination",
+      type: "fraction",
+    },
+    navigation: {
+      nextEl: ".content.citizen .btn.next",
+      prevEl: ".content.citizen .btn.prev",
+    },
+  });
+
+  $('.content.citizen .pause').on('click',function(){
+    swiper_citizen.autoplay.stop();
+    return false;
+ });
+
+  $('.content.citizen .play').on('click',function(){
+    swiper_citizen.autoplay.start();
+    return false;
+ });
+
+
+
+
+
 
 
 
   $('.content .btn_category').click(function(e){
     e.preventDefault();
-      // $('.content').toggleClass('active');
       $('.content').removeClass('active');
       $(this).parent('.content').addClass('active');
   })
 
   
 
-  var swiper = new Swiper(".slide_banner", {
+  var swiper_banner = new Swiper(".slide_banner", {
     slidesPerView: 3,
     spaceBetween: 30,
     loop: true,
@@ -39,4 +81,22 @@ $(function(){
       prevEl: ".sc_slide_banner .btn.prev",
     },
   });
+
+  $('.sc_slide_banner .pause').on('click',function(){
+      swiper_banner.autoplay.stop();
+      return false;
+   });
+
+
+  $('.sc_slide_banner .play').on('click',function(){
+    swiper_banner.autoplay.start();
+    return false;
+   });
+
+
+
+
+
+
+
 })

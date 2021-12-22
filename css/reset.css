@@ -47,6 +47,8 @@ a{text-decoration: none; color:inherit}
 
 img{vertical-align: top;}
 
+button{background: unset;cursor: pointer;}
+
 
 /* crossbrowsing */
 
