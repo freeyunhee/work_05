@@ -92,11 +92,21 @@ $(function(){
     swiper_banner.autoplay.start();
     return false;
    });
+   
 
 
+   $('.site_nav > li > a').click(function(e){
+    e.preventDefault();
+
+    h = $(this).siblings('.container').children('.depth1').outerHeight();
 
 
-
-
+    if($(this).siblings('.container').height() > 0){
+      $('.site_nav .container').stop().animate({height:0},300);
+    }else{
+      $('.site_nav .container').stop().animate({height:0},300)
+      $(this).siblings('.container').stop().animate({height:h},300);
+    }
+    });
 
 })
