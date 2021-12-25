@@ -1,0 +1,391 @@
+/* sc_notice */
+
+.sc_notice {height: 350px;}
+
+.sc_notice .main_section {float: left;width: 760px;height: 350px;position: relative;}
+
+.sc_notice .main_section .content {position: absolute;top: 0;left: 0;overflow: hidden;width: 100%;}
+
+.sc_notice .main_section .content .btn_category {width: 10%;height: calc(350px / 2);background: #d2e1e9;display: block;text-align: center;font-size: 14px;padding-top: 45px;position: absolute;left: 0;z-index: 100;}
+
+.sc_notice .main_section .content.active .btn_category {background: #0158a8;color:#fff;z-index: 50;}
+
+.sc_notice .main_section .content.news .btn_category {top: 0;}
+
+.sc_notice .main_section .content.citizen .btn_category {top: calc(350px /2);}
+
+.sc_notice .main_section .content .btn_category .sp_icon_news {display:block;width: 50px;height: 50px;margin: 0 auto;}
+
+.sc_notice .main_section .content.news .btn_category .sp_icon_news {background-position: 0 0;}
+
+.sc_notice .main_section .content.citizen .btn_category .sp_icon_news {background-position: -50px 0;}
+
+.sc_notice .main_section .content .notice_swiper {float: right;width: 90%;height:350px;position: relative;visibility: hidden;}
+
+.sc_notice .main_section .content.active .notice_swiper {visibility: visible;}
+
+.sc_notice .main_section .content .notice_swiper .banner_box {display: block;height: 100%;position: relative;}
+
+.sc_notice .main_section .content .notice_swiper .banner_box .thumb {width: 100%;height: 100%;object-fit: cover;}
+
+.sc_notice .main_section .content .notice_swiper .banner_box .txt_area {position: absolute;bottom: 0;left: 0;right:0;height: 40px;color:#fff;font-size: 14px;overflow: hidden;white-space: nowrap;text-overflow: ellipsis;line-height: 40px;padding-left: 10px;z-index: 0;background: rgba(0,0,0,0.7);}
+
+.sc_notice .main_section .content .swiper-pagination-fraction {left:auto;}
+
+/* .sc_notice .main_section .content .notice_swiper .btn_box {position: absolute;bottom: 0;right: 0;width: 80px;height: 40px;z-index: 50;
+    display: flex;justify-content: space-between;align-items: center;margin-right: 10px;} */
+
+.sc_notice .main_section .content .notice_swiper .controls {position: absolute;bottom:0;right: 0;width:200px;height: 40px;z-index: 50;display: flex;align-items: center;justify-content: space-between;padding-right: 20px;}
+
+.sc_notice .main_section .content .notice_swiper .controls .pagination {color: #fff;width: 80px;height:40px;text-align: center;line-height: 40px;font-size: 14px;}
+
+.sc_notice .main_section .content .notice_swiper .controls .btn .sp_icon {display: block;width: 18px;height: 18px;}
+
+.sc_notice .main_section .content .notice_swiper .controls .prev .sp_icon {background-position: -241px -285px;}
+.sc_notice .main_section .content .notice_swiper .controls .next .sp_icon {background-position: -256px -285px;}
+
+.sc_notice .main_section .content .notice_swiper .controls .pause .sp_icon {background-position: -285px -285px;}
+.sc_notice .main_section .content .notice_swiper .controls .play .sp_icon {background-position: -269px -285px;}
+
+
+
+.sc_notice .side_section {float: right;width: 360px;}
+
+.sc_notice .side_section .board {height: 213px;position: relative;}
+
+.sc_notice .side_section .board img {position: absolute;z-index: -10;top: 0;left: 0;}
+
+.sc_notice .side_section .board .covid {height: 93px;position: relative;}
+
+.sc_notice .side_section .board .covid .date {font-size: 12px;position: absolute;top: 5px;right: 25px;}
+
+.sc_notice .side_section .board .covid .result {position: absolute;top: 60px;color:#fff;}
+
+.sc_notice .side_section .board .covid .result.total {left:70px;}
+
+.sc_notice .side_section .board .covid .result.new {left:240px;}
+
+.sc_notice .side_section .board .vaccine {height: 120px;position: relative;color:#fff;font-size: 14px;}
+
+.sc_notice .side_section .board .vaccine .date {font-size: 12px;position: absolute;top: 5px;right: 25px;color:#000;}
+
+.sc_notice .side_section .board .vaccine .result.goal {position: absolute;left: 40px;top: 75px;}
+
+.sc_notice .side_section .board .vaccine .sort {position: absolute;left: 140px;}
+.sc_notice .side_section .board .vaccine .sort.first {top: 63px;}
+.sc_notice .side_section .board .vaccine .sort.second {top: 85px;}
+
+.sc_notice .side_section .board .vaccine .result {position: absolute;left: 195px;}
+.sc_notice .side_section .board .vaccine .result.first {top: 63px;}
+.sc_notice .side_section .board .vaccine .result.second {top: 85px;}
+
+.sc_notice .side_section .board .vaccine .percentage {position: absolute;left: 293px;}
+.sc_notice .side_section .board .vaccine .percentage.first {top: 63px;}
+.sc_notice .side_section .board .vaccine .percentage.second {top: 85px;}
+
+.sc_notice .side_section .mayor {height: 130px;margin-top: 7px;}
+
+/* sc_service */
+
+.sc_service {padding-top: 50px;}
+
+.sc_service .header {overflow: hidden;margin-bottom: 20px;}
+
+.sc_service .header .title {float: left;}
+
+.sc_service .header .all_site {float: right;width: 112px;height: 29px;border: 1px solid #ddd;font-size: 15px;text-align: center;line-height: 28px;background-image: url(../images/icon/arrow_right.png);background-repeat: no-repeat;background-position: right 13px top 50%;}
+
+.sc_service .service_list {overflow: hidden;width: 100%;}
+
+.sc_service .service_list li {float: left;width: calc(100% / 11);}
+
+.sc_service .service_list li a {font-size: 14px;display:block;height: 90px;text-align: center;}
+
+.sc_service .service_list li a .sp_service {background-image: url(../images/icon/icon_sp_service.png);background-repeat: no-repeat;width: 60px;height: 60px;display: block;margin: 0 auto;}
+
+.sc_service .service_list li.public a .sp_service {background-position: -360px 0;}
+
+.sc_service .service_list li.answer a .sp_service {background-position: 0 0;}
+
+.sc_service .service_list li.job a .sp_service {background-position: -120px 0;}
+
+.sc_service .service_list li.realstate a .sp_service {background-position: -300px 0;}
+
+.sc_service .service_list li.study a .sp_service {background-position: -180px 0;}
+
+
+.sc_service .service_list li.welfare a .sp_service {background-position: -960px 0;
+}
+.sc_service .service_list li.house a .sp_service {background-position: -780px 0;}
+
+.sc_service .service_list li.icare a .sp_service {background-position: -840px 0;}
+
+.sc_service .service_list li.mediahub a .sp_service {background-position: -1020px 0;}
+
+.sc_service .service_list li.ebook a .sp_service {background-position: -1080px 0;}
+
+.sc_service .service_list li.council a .sp_service {background-position: -600px 0;}
+
+/* sc_covid */
+
+.sc_covid {margin-top: 35px;background: #eff4f8;}
+
+.sc_covid .info_covid {overflow: hidden;padding: 20px 0;}
+
+.sc_covid .info_covid li {float: left;width: 288px;height: 70px;position: relative;}
+
+.sc_covid .info_covid li+li:after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0;
+    width: 1px;
+    height: 60px;
+    background: #dbdbdb;
+    display: block;
+}
+
+.sc_covid .info_covid li a {display: block;height: 100%;}
+
+/* sc_board */
+
+.sc_board .inner {border-bottom: 2px solid #222222;padding: 50px 0;}
+
+.sc_board .inner > div {width: 360px;float: left;}
+
+.sc_board .inner > div+div {margin-left: 36px;}
+
+.sc_board .board .header {margin-bottom: 10px;position: relative;}
+
+
+.sc_board .board .header .btn_more {width: 22px;height: 20px;display: block;border: 1px solid #ddd;position: absolute;top: 0;right: 0;}
+
+.sc_board .board .header .btn_more .sp_icon {display:block;width: 100%;height: 100%;background-position: -1.5px -1.5px;}
+
+.sc_board .board .content {font-size: 15px;}
+
+.sc_board .board .content li {padding: 6px 0;overflow: hidden;}
+
+.sc_board .board .content li span {margin-right: 9px;float: left;}
+
+.sc_board .board .content li span.culture {color: #9b64d3;}
+
+.sc_board .board .content li span.work {color: #028ab6;}
+
+.sc_board .board .content li span.welfare {color: #d76000;}
+
+.sc_board .board .content li span.house {color: #c35c3c;}
+
+.sc_board .board .content li a {display: block;white-space: nowrap;overflow: hidden;text-overflow: ellipsis;}
+
+.sc_board .service .content {padding: 15px 5px  5px 20px;overflow: hidden;background: #eff4f8;}
+
+.sc_board .service .content li {float: left;width: 50%;position: relative;padding: 0 0 10px 10px;}
+
+.sc_board .service .content li:before {content: '';
+    position: absolute;
+    background: #666666;
+    width: 2px;
+    height: 2px;
+    left: 0;
+    top: 50%;
+    margin-top: -6px;}
+
+.sc_category {padding-top: 40px;}
+
+.sc_category .title {margin-bottom: 20px;}
+
+.sc_category .info_list {overflow: hidden;}
+
+.sc_category .info_list li {float: left;width:calc(100% / 8);height: 145px;background-repeat: no-repeat;background-position: center top;}
+
+.sc_category .info_list li.house {background-image: url(../images/content/info_house.png);}
+
+.sc_category .info_list li.economy {background-image: url(../images/content/info_economy.png);}
+
+.sc_category .info_list li.traffic {background-image: url(../images/content/info_traffic.png);}
+
+.sc_category .info_list li.environment {background-image: url(../images/content/info_environment.png);}
+
+.sc_category .info_list li.welfare {background-image: url(../images/content/info_welfare.png);}
+
+.sc_category .info_list li.safety {background-image: url(../images/content/info_safety.png);}
+
+.sc_category .info_list li.culture {background-image: url(../images/content/info_culture.png);}
+
+.sc_category .info_list li.work {background-image: url(../images/content/info_work.png);}
+
+.sc_category .info_list li a {display: block;text-align: center;padding-top: 100px;}
+
+/* sc_news */
+
+.sc_news .header {border-bottom: none;position: relative;}
+
+.sc_news .title {margin-bottom: 20px;}
+
+.sc_news .view_all {width: 75px;position: absolute;top: 50%;right: 0;transform: translateY(-50%);font-size: 15px;color:#7d7d7d;background-image: url(../images/icon/icon_sp.png);background-position: 0 -259px;}
+
+.sc_news .news_list {overflow: hidden;}
+
+.sc_news .news_list li {width: 273px;float: left;margin-right: 20px;position: relative;}
+
+.sc_news .news_list li:nth-of-type(4n) {margin-right: 0;}
+
+.sc_news .news_list li .img_box {width: 100%;height: 188px;overflow: hidden;margin-bottom: 15px;}
+
+.sc_news .news_list li.covid .img_box {height: 248px;}
+
+.sc_news .news_list li .img_box img {transition: 0.3s ease-in-out;}
+
+.sc_news .news_list li .img_box img:hover {transform: scale(1.1);}
+
+.sc_news .news_list li .category {color:#fff;width: 82px;height: 32px;position: absolute;top: 156px;left: 0;text-align: center;line-height: 32px;}
+
+.sc_news .news_list li .category.welfare {background-color: #d76000;}
+
+.sc_news .news_list li .category.economy {background-color: #069363;}
+
+.sc_news .news_list li .category.work {background-color: #028ab6;}
+
+.sc_news .news_list li .category.environment {background-color: #599100;}
+
+.sc_news .news_list li.covid .category {display: none;}
+
+.sc_news .news_list li .title {overflow: hidden;text-overflow: ellipsis;display: block;}
+
+.sc_news .news_list li.covid .title {display: none;}
+
+/* sc_about_seoul */
+
+.sc_about_seoul .content {overflow: hidden;padding-top: 20px;}
+
+.sc_about_seoul .content .seoul_video {width: 280px;float: left;}
+
+.sc_about_seoul .content .seoul_video .title {margin: 0 0 20px;}
+
+.sc_about_seoul .content .seoul_video .img_box {width: 100%;height: 152px;overflow: hidden;position: relative;}
+
+.sc_about_seoul .content .seoul_video .img_box img {width: 100%;height: 100%;object-fit: cover;transition: 0.3s ease-in-out;}
+
+.sc_about_seoul .content .seoul_video .img_box img:hover {transform: scale(1.1);}
+
+.sc_about_seoul .content .seoul_video .img_box .desc {position: absolute;left: 0;bottom: 0;color: #fff;padding: 10px 20px;font-weight: 700;white-space: nowrap;overflow: hidden;text-overflow: ellipsis;background: rgba(0,0,0,0.5);display: block;}
+
+.sc_about_seoul .content .seoul_news {width: 480px;float: left;margin-left: 20px;}
+
+.sc_about_seoul .content .seoul_news .title {margin: 0 0 20px;}
+
+.sc_about_seoul .content .seoul_news li {padding: 8px 0;overflow: hidden;}
+
+.sc_about_seoul .content .seoul_news li a {display: block;}
+
+.sc_about_seoul .content .seoul_news li .group {font-weight: 400;color:#09ac43;margin-right: 18px;float: left;}
+
+.sc_about_seoul .content .seoul_news li .headline {white-space: nowrap;overflow: hidden;text-overflow: ellipsis;color:#555555;}
+
+.sc_about_seoul .content .seoul_sns {width: 350px;height: 195px;float: right;background-image: url(../images/content/bg_sns.jpg);background-repeat: no-repeat;padding: 15px;position: relative;}
+
+.sc_about_seoul .content .seoul_sns .title {font-size: 22px;font-weight: 600;padding-right: 50px;position: relative;}
+
+.sc_about_seoul .content .seoul_sns .title .sp_sns {width: 34px;height: 24px;background-position: -247px 0;position: absolute;top: 40%;left: 40%;transform: translate(-50%,-50%);border-left: 1px solid #878787}
+
+.sc_about_seoul .content .seoul_sns ul {overflow: hidden;position: absolute;top: 50%;left: 50%;transform: translate(-50%,-50%);width: 276px;}
+
+.sc_about_seoul .content .seoul_sns ul li {float: left;margin: 0 3px;}
+
+.sc_about_seoul .content .seoul_sns ul li.insta .sp_sns {background-position: 0 0;}
+.sc_about_seoul .content .seoul_sns ul li.facebook .sp_sns {background-position: -40px 0;}
+.sc_about_seoul .content .seoul_sns ul li.twitter .sp_sns {background-position: -80px 0;}
+.sc_about_seoul .content .seoul_sns ul li.blog .sp_sns {background-position: -120px 0;}
+.sc_about_seoul .content .seoul_sns ul li.youtube .sp_sns {background-position: -160px 0;}
+.sc_about_seoul .content .seoul_sns ul li.story .sp_sns {background-position: -200px 0;}
+
+.sc_about_seoul .story_in_seoul {margin: 50px 0;}
+
+.sc_about_seoul .story_in_seoul a {display: block;}
+
+/* sc_slide_banner */
+
+.sc_slide_banner {margin-bottom: 50px;}
+
+.sc_slide_banner .slide_banner {padding-top: 50px;border-top: 2px solid #222;}
+
+.sc_slide_banner .slide_banner .container img {
+    width: 100%;height: 100%;object-fit: cover;
+}
+
+.sc_slide_banner .controls {display: flex;justify-content: right;margin-top: 10px;}
+
+.sc_slide_banner .controls .pagination {display: block;margin-right: 10px;font-size: 14px;}
+
+.sc_slide_banner .controls .btn {display: block;height: 100%;flex-flow: 0;}
+
+.sc_slide_banner .controls .btn .sp_icon {width: 20px;height: 20px;display: block;}
+
+.sc_slide_banner .controls .btn.prev .sp_icon {background-position: -45px -43px;}
+.sc_slide_banner .controls .btn.pause .sp_icon {background-position: -65px -43px;}
+.sc_slide_banner .controls .btn.play .sp_icon {background-position: -101px -43px;}
+.sc_slide_banner .controls .btn.next .sp_icon {background-position: -86px -43px;}
+
+.sc_slide_banner .swiper-pagination-fraction {width: auto;}
+
+
+
+/* sc_related_site */
+
+.sc_related_site {margin: 20px 0;}
+
+.sc_related_site .inner {overflow:initial;}
+
+.sc_related_site .site_nav {
+    border: 1px solid #d0d0d0;display: flex;}
+
+.sc_related_site .site_nav > li {width: calc(100% / 3);text-align: center;height: 50px;background: #f7f7f7;color:#333;font-size: 14px;}
+
+.sc_related_site .site_nav > li.active {background: #e2e2e2;}
+
+.sc_related_site .site_nav > li+li {border-left: 1px solid #d0d0d0;}
+
+.sc_related_site .site_nav > li > a {display: block;height: 100%;line-height: 48px;}
+
+.sc_related_site .site_nav > li > a h3 {position: relative;}
+
+.sc_related_site .site_nav > li > a h3::after {
+    content: '';
+    position: absolute;
+    top: 45%;
+    right: 33%;
+    height: 7px;
+    width: 7px;
+    border-style: solid;
+    border-color: #373737;
+    border-width: 0px 2px 2px 0px;
+    transform: rotate(-135deg);
+    transition: .3s cubic-bezier(0.075, 0.82, 0.165, 1);
+    transform-origin: center center;
+}
+
+.sc_related_site .site_nav > li.active a h3::after {
+    transform: rotate(45deg);
+    top:35%;
+}
+
+.sc_related_site .site_nav > li .container {
+    height: 0;
+    overflow: hidden;
+    position: absolute;
+    left: 0;width: 100%;
+    bottom: 52px;
+    z-index: 10;
+    background: #fff;
+}
+
+.sc_related_site .site_nav > li .container .depth1 {
+border: 1px solid #d0d0d0;padding: 20px 0;
+display: flex;flex-wrap: wrap;
+}
+
+
+.sc_related_site .site_nav > li .container .depth1 > li {width: 25%;font-size:14px;padding: 8px 0;}
+
