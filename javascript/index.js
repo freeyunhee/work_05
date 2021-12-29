@@ -53,12 +53,6 @@ $(function(){
  });
 
 
-
-
-
-
-
-
   $('.content .btn_category').click(function(e){
     e.preventDefault();
       $('.content').removeClass('active');

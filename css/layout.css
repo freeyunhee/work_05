@@ -1,10 +1,4 @@
-body {
-    font-family: 'Nanum Gothic', sans-serif;
-    color:#222;
-    line-height: 1.35em;
-    letter-spacing: -0.05em;
-}
-
+body {font-family: 'Nanum Gothic', sans-serif;color:#222;line-height: 1.35em;letter-spacing: -0.05em;word-break:keep-all;}
 
 .inner {width: 1152px;margin: 0 auto;position: relative;overflow: hidden;}
 
@@ -17,7 +11,6 @@ header .nav_area {height: 48px;}
 header .nav_area .logo {float: left;margin-top: 8px;}
 
 header .nav_area .logo .sp_icon {width: 105px;height: 27px;display: block;background-position: -5px -165px;}
-
 
 header .nav_area .gnb {height: 48px;width: 700px;float: left;}
 
@@ -45,17 +38,11 @@ header .src_area .logo {float: left;margin: 38px 0;}
 
 header .src_area .logo .logo_new {display: block;width: 178px;height: 51px;background-image: url(../images/logo/logo_new.png);}
 
-header .src_area .src_box {
-    border: 3px solid #2292e9;
-    width: 450px;
-    height: 42px;
-    position: absolute;top: 45%;left: 50%;transform: translate(-50%,-50%);
-}
+header .src_area .src_box {border: 3px solid #2292e9;width: 450px;height: 42px;position: absolute;top: 45%;left: 50%;transform: translate(-50%,-50%);}
 
 header .src_area .src_box .src_text {font-size: 16px;height: 35px;line-height: 35px;outline:0;padding: 0 10px;width: 80%;}
 
-header .src_area .src_box .btn_keyboard {display: block;height: 100%;
-position: absolute;top: 75%;right: 5%;transform: translate(-50%,-50%);}
+header .src_area .src_box .btn_keyboard {display: block;height: 100%;position: absolute;top: 75%;right: 5%;transform: translate(-50%,-50%);}
 
 header .src_area .src_box .btn_keyboard .ico_keyboard {background-image: url(../images/icon/icon_keyboard.png);display: block;width: 30px;height: 16px;}
 
@@ -69,7 +56,6 @@ header .src_area .weather_area .degree {font-size: 25px;font-weight: 700;display
 
 header .src_area .weather_area .dust {font-size: 13px;}
 
-
 /* footer */
 
 footer .link_area {padding: 15px 0;}
@@ -78,13 +64,7 @@ footer .link_area .links {overflow: hidden;float: left;}
 
 footer .link_area .links a {float: left;font-size: 12px;color:#636363;}
 
-footer .link_area .links i {float: left;
-    display: block;
-    width: 1px;
-    height: 14px;
-    background: #dcdcdc;margin: 0 10px;
-    position: relative;top: 5px;left: 0;
-}
+footer .link_area .links i {float: left;display: block;width: 1px;height: 14px;background: #dcdcdc;margin: 0 10px;position: relative;top: 5px;left: 0;}
 
 footer .link_area .sns {float: right;overflow: hidden;}
 
@@ -94,45 +74,36 @@ footer .link_area .sns a+a {margin-left: 12px;}
 
 footer .link_area .sns a.facebook {background-position: -25px 0;}
 footer .link_area .sns a.facebook:hover {background-position: -25px -25px;}
+
 footer .link_area .sns a.twitter {background-position: -50px 0;}
 footer .link_area .sns a.twitter:hover {background-position: -50px -25px;}
+
 footer .link_area .sns a.insta {background-position: -75px 0;}
 footer .link_area .sns a.insta:hover {background-position: -75px -25px;}
+
 footer .link_area .sns a.story {background-position: -100px 0;}
 footer .link_area .sns a.story:hover {background-position: -100px -25px;}
+
 footer .link_area .sns a.youtube {background-position: -125px 0;}
 footer .link_area .sns a.youtube:hover {background-position: -125px -25px;}
+
 footer .link_area .sns a.blog {background-position: -150px 0;}
 footer .link_area .sns a.blog:hover {background-position: -150px -25px;}
 
-footer .info_area .inner {position: relative;    padding: 22px 0;
-    border-top: 1px solid #ccc;}
+footer .info_area .inner {position: relative;padding: 22px 0;border-top: 1px solid #ccc;}
+
 footer .info_area .inquire {overflow: hidden;}
-footer .info_area .inquire .sp_icon {
-    float: left;
-    margin-right: 40px;
-    width: 108px;
-    height: 45px;
-    background-position: -180px 0;}
+
+footer .info_area .inquire .sp_icon {float: left;margin-right: 40px;width: 108px;height: 45px;background-position: -180px 0;}
+
 footer .info_area address {font-weight: 500;color:#636363;font-size: 12px;display: inline-block;}
+
 footer .info_area address p {margin-bottom: 2px;}
 
 footer .info_area address p a.seoul_talk {margin-left: 4px;border:1px solid #c8c8c8; border-radius: 12px;padding: 3px 5px 2px 22px;display: inline-block;position: relative;}
 
-footer .info_area address p a.seoul_talk::before {
-    content: "";
-    width: 16px;height: 16px;
-    display: block;
-    background-image: url(../images/icon/icon_seoultalk.png);
-    background-repeat: no-repeat;background-size:cover;
-    position: absolute;
-    top: 48%;left: 7%;transform: translateY(-50%);
-}
+footer .info_area address p a.seoul_talk::before {content: "";width: 16px;height: 16px;display: block;background-image: url(../images/icon/icon_seoultalk.png);background-repeat: no-repeat;background-size:cover;position: absolute;top: 48%;left: 7%;transform: translateY(-50%);}
 
-footer .info_area .mark {
-    position: absolute;
-    top: 20px;
-    right: 0;
-}
+footer .info_area .mark {position: absolute;top: 20px;right: 0;}
 
 footer .info_area .mark .wah {margin-left: 15px;}

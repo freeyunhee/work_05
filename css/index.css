@@ -32,9 +32,6 @@
 
 .sc_notice .main_section .content .swiper-pagination-fraction {left:auto;}
 
-/* .sc_notice .main_section .content .notice_swiper .btn_box {position: absolute;bottom: 0;right: 0;width: 80px;height: 40px;z-index: 50;
-    display: flex;justify-content: space-between;align-items: center;margin-right: 10px;} */
-
 .sc_notice .main_section .content .notice_swiper .controls {position: absolute;bottom:0;right: 0;width:200px;height: 40px;z-index: 50;display: flex;align-items: center;justify-content: space-between;padding-right: 20px;}
 
 .sc_notice .main_section .content .notice_swiper .controls .pagination {color: #fff;width: 80px;height:40px;text-align: center;line-height: 40px;font-size: 14px;}
@@ -42,12 +39,12 @@
 .sc_notice .main_section .content .notice_swiper .controls .btn .sp_icon {display: block;width: 18px;height: 18px;}
 
 .sc_notice .main_section .content .notice_swiper .controls .prev .sp_icon {background-position: -241px -285px;}
+
 .sc_notice .main_section .content .notice_swiper .controls .next .sp_icon {background-position: -256px -285px;}
 
 .sc_notice .main_section .content .notice_swiper .controls .pause .sp_icon {background-position: -285px -285px;}
+
 .sc_notice .main_section .content .notice_swiper .controls .play .sp_icon {background-position: -269px -285px;}
-
-
 
 .sc_notice .side_section {float: right;width: 360px;}
 
@@ -72,15 +69,21 @@
 .sc_notice .side_section .board .vaccine .result.goal {position: absolute;left: 40px;top: 75px;}
 
 .sc_notice .side_section .board .vaccine .sort {position: absolute;left: 140px;}
+
 .sc_notice .side_section .board .vaccine .sort.first {top: 63px;}
+
 .sc_notice .side_section .board .vaccine .sort.second {top: 85px;}
 
 .sc_notice .side_section .board .vaccine .result {position: absolute;left: 195px;}
+
 .sc_notice .side_section .board .vaccine .result.first {top: 63px;}
+
 .sc_notice .side_section .board .vaccine .result.second {top: 85px;}
 
 .sc_notice .side_section .board .vaccine .percentage {position: absolute;left: 293px;}
+
 .sc_notice .side_section .board .vaccine .percentage.first {top: 63px;}
+
 .sc_notice .side_section .board .vaccine .percentage.second {top: 85px;}
 
 .sc_notice .side_section .mayor {height: 130px;margin-top: 7px;}
@@ -113,9 +116,8 @@
 
 .sc_service .service_list li.study a .sp_service {background-position: -180px 0;}
 
+.sc_service .service_list li.welfare a .sp_service {background-position: -960px 0;}
 
-.sc_service .service_list li.welfare a .sp_service {background-position: -960px 0;
-}
 .sc_service .service_list li.house a .sp_service {background-position: -780px 0;}
 
 .sc_service .service_list li.icare a .sp_service {background-position: -840px 0;}
@@ -134,17 +136,7 @@
 
 .sc_covid .info_covid li {float: left;width: 288px;height: 70px;position: relative;}
 
-.sc_covid .info_covid li+li:after {
-    content: '';
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    left: 0;
-    width: 1px;
-    height: 60px;
-    background: #dbdbdb;
-    display: block;
-}
+.sc_covid .info_covid li+li:after {content: '';position: absolute;top: 50%;transform: translateY(-50%);left: 0;width: 1px;height: 60px;background: #dbdbdb;display: block;}
 
 .sc_covid .info_covid li a {display: block;height: 100%;}
 
@@ -157,7 +149,6 @@
 .sc_board .inner > div+div {margin-left: 36px;}
 
 .sc_board .board .header {margin-bottom: 10px;position: relative;}
-
 
 .sc_board .board .header .btn_more {width: 22px;height: 20px;display: block;border: 1px solid #ddd;position: absolute;top: 0;right: 0;}
 
@@ -183,14 +174,7 @@
 
 .sc_board .service .content li {float: left;width: 50%;position: relative;padding: 0 0 10px 10px;}
 
-.sc_board .service .content li:before {content: '';
-    position: absolute;
-    background: #666666;
-    width: 2px;
-    height: 2px;
-    left: 0;
-    top: 50%;
-    margin-top: -6px;}
+.sc_board .service .content li:before {content: '';position: absolute;background: #666666;width: 2px;height: 2px;left: 0;top: 50%;margin-top: -6px;}
 
 .sc_category {padding-top: 40px;}
 
@@ -295,10 +279,15 @@
 .sc_about_seoul .content .seoul_sns ul li {float: left;margin: 0 3px;}
 
 .sc_about_seoul .content .seoul_sns ul li.insta .sp_sns {background-position: 0 0;}
+
 .sc_about_seoul .content .seoul_sns ul li.facebook .sp_sns {background-position: -40px 0;}
+
 .sc_about_seoul .content .seoul_sns ul li.twitter .sp_sns {background-position: -80px 0;}
+
 .sc_about_seoul .content .seoul_sns ul li.blog .sp_sns {background-position: -120px 0;}
+
 .sc_about_seoul .content .seoul_sns ul li.youtube .sp_sns {background-position: -160px 0;}
+
 .sc_about_seoul .content .seoul_sns ul li.story .sp_sns {background-position: -200px 0;}
 
 .sc_about_seoul .story_in_seoul {margin: 50px 0;}
@@ -311,9 +300,7 @@
 
 .sc_slide_banner .slide_banner {padding-top: 50px;border-top: 2px solid #222;}
 
-.sc_slide_banner .slide_banner .container img {
-    width: 100%;height: 100%;object-fit: cover;
-}
+.sc_slide_banner .slide_banner .container img {width: 100%;height: 100%;object-fit: cover;}
 
 .sc_slide_banner .controls {display: flex;justify-content: right;margin-top: 10px;}
 
@@ -324,13 +311,14 @@
 .sc_slide_banner .controls .btn .sp_icon {width: 20px;height: 20px;display: block;}
 
 .sc_slide_banner .controls .btn.prev .sp_icon {background-position: -45px -43px;}
+
 .sc_slide_banner .controls .btn.pause .sp_icon {background-position: -65px -43px;}
+
 .sc_slide_banner .controls .btn.play .sp_icon {background-position: -101px -43px;}
+
 .sc_slide_banner .controls .btn.next .sp_icon {background-position: -86px -43px;}
 
 .sc_slide_banner .swiper-pagination-fraction {width: auto;}
-
-
 
 /* sc_related_site */
 
@@ -338,8 +326,7 @@
 
 .sc_related_site .inner {overflow:initial;}
 
-.sc_related_site .site_nav {
-    border: 1px solid #d0d0d0;display: flex;}
+.sc_related_site .site_nav {border: 1px solid #d0d0d0;display: flex;}
 
 .sc_related_site .site_nav > li {width: calc(100% / 3);text-align: center;height: 50px;background: #f7f7f7;color:#333;font-size: 14px;}
 
@@ -351,41 +338,13 @@
 
 .sc_related_site .site_nav > li > a h3 {position: relative;}
 
-.sc_related_site .site_nav > li > a h3::after {
-    content: '';
-    position: absolute;
-    top: 45%;
-    right: 33%;
-    height: 7px;
-    width: 7px;
-    border-style: solid;
-    border-color: #373737;
-    border-width: 0px 2px 2px 0px;
-    transform: rotate(-135deg);
-    transition: .3s cubic-bezier(0.075, 0.82, 0.165, 1);
-    transform-origin: center center;
-}
+.sc_related_site .site_nav > li > a h3::after {content: '';position: absolute;top: 45%;right: 33%;height: 7px;width: 7px;border-style: solid;border-color: #373737;border-width: 0px 2px 2px 0px;transform: rotate(-135deg);transition: .3s cubic-bezier(0.075, 0.82, 0.165, 1);transform-origin: center center;}
 
-.sc_related_site .site_nav > li.active a h3::after {
-    transform: rotate(45deg);
-    top:35%;
-}
+.sc_related_site .site_nav > li.active a h3::after {transform: rotate(45deg);top:35%;}
 
-.sc_related_site .site_nav > li .container {
-    height: 0;
-    overflow: hidden;
-    position: absolute;
-    left: 0;width: 100%;
-    bottom: 52px;
-    z-index: 10;
-    background: #fff;
-}
+.sc_related_site .site_nav > li .container {height: 0;overflow: hidden;position: absolute;left: 0;width: 100%;bottom: 52px;z-index: 10;background: #fff;}
 
-.sc_related_site .site_nav > li .container .depth1 {
-border: 1px solid #d0d0d0;padding: 20px 0;
-display: flex;flex-wrap: wrap;
-}
-
+.sc_related_site .site_nav > li .container .depth1 {border: 1px solid #d0d0d0;border-bottom:none;padding: 20px 0;display: flex;flex-wrap: wrap;}
 
 .sc_related_site .site_nav > li .container .depth1 > li {width: 25%;font-size:14px;padding: 8px 0;}
 
